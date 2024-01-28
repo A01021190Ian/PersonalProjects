@@ -15,6 +15,7 @@ int main()
     int b[size];
     int c[size];
     int d[size];
+    srand(time(0));
     cout<<"\nArray A:\n";
     for(int j=0; j<size; ++j)
     {
